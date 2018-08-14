@@ -24,3 +24,19 @@ function reformat(str) {
   return j[0].toUpperCase() + j(1).toLowerCase();
 }
 ```
+### Task 3:
+```javascript
+var arrayA = [1,0,0,0,0,0,0,0,0,1];
+
+function next_binary_number(arrayA){
+    var j = arrayA;  
+    for (i = 0; i < arrayA.length; i++) {
+      if (arrayA.length - 1 === 1){
+        j.push(1);
+      }else{
+        j.push(0)
+      }
+      return j;
+    }
+}
+```
